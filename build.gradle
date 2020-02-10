@@ -29,6 +29,8 @@ dependencies {
     compile 'org.springframework:spring-core',
     		'org.springframework.boot:spring-boot-starter-web',
     		'com.h2database:h2',
+    		'org.springframework.boot:spring-boot-starter-security', 	
+    		group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1',	
     		'org.springframework.boot:spring-boot-starter-data-jpa',
     		'org.springframework.boot:spring-boot-starter',
     		'org.springframework.data:spring-data-rest-webmvc'
